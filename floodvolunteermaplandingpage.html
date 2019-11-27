@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+            .h1,.h2,.p {font-family: Lato;}
+            .p {line-height:31px;} 
+            .h1 {font-weight:1em;}
+            .container {text-align:center;}
+            #form {text-align: left;}
+            #map {background: rgba(78,205,196,1);color: #1c264a; }
+            .jumbotron {background-color: rgba(58,86,162,1);}
+            .span {font-size:68px;line-height:17px;}
+            .form-group {text-align: left; max-width: 700px;}
+            .form-control.input,.textarea {
+    font-size: 1.8rem;
+    line-height: 1.33333;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    position: relative;
+    z-index: 1;
+    height: 52px;
+    padding: 28px 12px 6px;
+}
+            
+            </style>
+    <title>Montreal Floods 2019  
+Volunteer Map</title>
+  </head>
+  <body>
+      <!-- Image and text -->
+<nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="bd336438-logo-landing_06o01p06o01p000000001.png" width="240" height="61" class="d-inline-block align-top" alt="">
+        </a>
+        <a href="https://www.facebook.com/InondationsMontrealFloodsCarteMap/?eid=ARAyO3HN4J9g09tTMkjpuklvJabmNETKjKAS_XdQta9ptfxw_v_gO-Jhs4LpPIdbcAM9wem1KlQbG0QC" >
+        <i class="fab fa-facebook-square fa-lg"></i>
+        </a>
+      </nav>
+  
+        <div class="jumbotron jumbotron-fluid text-white">
+                <div class="container" class="main">
+  <span><h1 class="display-4"><strong>Montreal Floods 2019 <br>  
+Volunteer Map</strong></h1></span>
+<br>
+  <p class="lead" font-size="18px"><strong>Matching volunteers with flood victims</strong></p>
+  <br>
+  <a class="btn btn-lg" id="map" href="https://www.google.com/maps/d/u/0/viewer?fbclid=IwAR1lCox8S6tHqARlBYu2yDMHUayzVkA2UK7FoIo5LCLCRoNfz4GfF_Vox_U&mid=1_P7Gz_MBeyEK1Bw9qrTkY7QrO43OCqsK&ll=45.48811000000003%2C-73.88217159999999&z=15" role="button">View the map</a>
+  </div>
+</div>
+<br>
+  <div class="container" id="form">
+   <span> <h2>Need volunteer help?</h2></span>
+    <p> Please fill out the form below</p>
+
+    
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfhxddSSbB722N2gRZY0LAMFBxsuo3LxTVM3YuswZ8MY9lumg/formResponse?embedded=true" method="POST">
+         <div class="form-group">
+        <label for="address">Address</label>
+        <input type="text" class="form-control" id="address" aria-describedby="address" placeholder="Where are you" name="entry.75338283">
+      </div>
+      <div class="form-group">
+        <label for="help-needed">Help Needed</label>
+        <textarea class="form-control" id="help-needed" aria-describedby="help-needed" rows="5" placeholder="Describe the help you need" name="entry.949786718"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="contact-info">Contact</label>
+        <input type="text" class="form-control" id="contact-info" aria-describedby="contact-indo" placeholder="Your name & how to reach you" name="entry.381330646">
+      </div>
+      <div class="form-group"></div>
+        <button type="submit" id="submit" class="btn btn-danger btn-lg" id="get-help">Get Help</button>
+    </form>
+    <hr>
+  <footer class="footer"><p>&#169 2019 All rights reserved. Made with &#x2764 by Stephanie O'Hanley. Logo & web design concept by Sara Siebert</p> </footer>
+ <!--
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhxddSSbB722N2gRZY0LAMFBxsuo3LxTVM3YuswZ8MY9lumg/viewform?embedded=true" width="640" height="1350" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
